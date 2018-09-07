@@ -1,0 +1,105 @@
+body{
+  margin:4em;
+}
+
+h1{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size:2.4em;
+  color:#000000;
+  margin:0;
+  padding:0;
+}
+
+h1:first-letter {
+  color:#66bb66;
+}
+
+ul.tree, ul.tree ul{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size:1.4em;
+  line-height:1.5em;
+  font-weight:bold;
+  list-style-type:none;
+  list-style-type:none;
+  background:url(vline.png) repeat-y;
+  margin:0;
+  padding:0;
+}
+ul.tree ul{
+  margin-left:10px;
+}
+
+ul.tree li{
+  margin:0;
+  padding:0 24px;
+  background:url(node.png) no-repeat;
+  font-weight:bold;
+}
+
+ul.tree li.last{
+    background:#fff url(lastnode.png) no-repeat;
+}
+
+ul.tree{
+  position:relative;
+  color:#888888;
+  left:.8em;
+}
+
+ul.tree a, ul.common a{
+  text-decoration:none;
+  color:#66BB66;
+}
+
+ul.tree a:hover, ul.common a:hover {
+  color:#66BB66;
+}
+
+p.footer{
+  margin-top : 3em;
+  font-size:.7em;
+  color:#888888;
+}
+ul.common{
+  color:#555555;
+  left:.8em;
+  list-style-type:circle;
+}
+
+div.cv_head div{
+  margin-bottom:.6em;
+}
+
+div.cv_name{
+  font-weight:bold;
+}
+
+div.cv{
+  background-color:#EAFFF5;
+  padding:2em;
+  border-style:dashed;
+  border-color:#66DD88;
+  border-width:.2em;
+}
+
+div.cvlink{
+  padding-bottom:1em;
+}
+
+div.cvlink a{
+    color:#DD2222;
+}
+
+div.photo{
+    position:absolute;
+    right:3em;
+    top:0;
+}
+
+div.main{
+    position:relative;
+}
+
+div.photo img{
+    width:8em;
+}
